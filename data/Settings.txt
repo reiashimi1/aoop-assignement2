@@ -1,0 +1,27 @@
+[Local]
+Environment: DEVELOPMENT
+LogLevel: 0
+
+[Paths]
+BaseDirectory: C:\Users\Petrika Mano\OneDrive\Documents\AOOP - Assignment 2 - 2022 - GUI\
+DataDirectory: C:\Users\Petrika Mano\OneDrive\Documents\AOOP - Assignment 2 - 2022 - GUI\data\
+OutputDirectory: C:\Users\Petrika Mano\OneDrive\Documents\AOOP - Assignment 2 - 2022 - GUI\Output\
+ExistingStars: C:\Users\Petrika Mano\OneDrive\Documents\AOOP - Assignment 2 - 2022 - GUI\data\existing_stars.csv
+CustomStars: C:\Users\Petrika Mano\OneDrive\Documents\AOOP - Assignment 2 - 2022 - GUI\data\custom_stars.csv
+Species: C:\Users\Petrika Mano\OneDrive\Documents\AOOP - Assignment 2 - 2022 - GUI\data\custom_species.csv
+
+[Files]
+StarCSV: stars.csv
+
+[Galaxy]
+Thickness: 10.0
+NumberOfStars: 80000000000
+GalaxySize: 35000
+KnownGalaxy: 300
+SeenGalaxy: 500
+DetectedGalaxy: 1000
+UnknownGalaxy: 2500
+
+[Generating]
+Seed: 1971010312
+MinDistance: 0.2
