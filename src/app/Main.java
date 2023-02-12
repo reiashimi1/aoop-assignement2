@@ -129,16 +129,7 @@ dialog.getDialogPane().getButtonTypes().add(type);
 	          add.setOnAction(new EventHandler<ActionEvent>() {
 	              @Override
 	              public void handle(ActionEvent event) {
-	            	  Star v=new Star();
-	            	 StarCollection starCollection = null;
-					try {
-						starCollection = new StarCollection();
-					} catch (IOException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-					starCollection.add(v);
-	            	
+	            	  
 	              }
 	          });
 	          
